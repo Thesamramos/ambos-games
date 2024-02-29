@@ -29,7 +29,7 @@ header {
 }
 
 header img {
-    width: 8rem;
+    width: 4rem;
 }
 
 header nav {
@@ -52,4 +52,28 @@ header nav a:hover{
     color: var(--font-hover);
     border-bottom: 2px solid var(--font2);
     transition: 0.5s;
+}
+
+#home {
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home h1 {
+    font-size: 6rem;
+    color: var(--font-hover);
+}
+
+#home h1 span {
+    font-size: 6rem;
+    color: var(--font2);
+}
+
+#home .slogan {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--font);
 }
