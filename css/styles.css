@@ -77,3 +77,15 @@ header nav a:hover{
     font-weight: 500;
     color: var(--font);
 }
+
+#catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#catalogo h2 {
+    font-size: 3.5rem;
+    color: var(--font2);
+}
