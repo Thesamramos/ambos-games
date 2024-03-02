@@ -5,6 +5,7 @@
     --font-hover: #D3DDE3;
     --font2: #FB6F2A;
     --background: #070F22;
+    --black: #000000;
 }
 
 * {
@@ -59,7 +60,7 @@ header nav a:hover{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #home h1 {
@@ -79,6 +80,8 @@ header nav a:hover{
 }
 
 #catalogo {
+    background: var(--font2);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,5 +90,62 @@ header nav a:hover{
 
 #catalogo h2 {
     font-size: 3.5rem;
+    color: var(--font);
+}
+
+#catalogo .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+#catalogo .card {
+    background: var(--font-hover);
+    padding: 0.5rem;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#catalogo .card img {
+    height: 11rem;
+}
+
+#catalogo .card span {
+    color: var(--background);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#catalogo .card a {
+    text-decoration: none;
     color: var(--font2);
+    font-weight: 500;
+    background: var(--black);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#catalogo .consolesContainer {
+    background: var(--background);
+    padding: 1.25rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#catalogo .consolesContainer h3 {
+    font-size: 2.5rem;
+}
+
+#catalogo .consoleCardsContainer {
+    display: flex;
+    gap: 1rem;
 }
