@@ -83,7 +83,12 @@ section {
     color: var(--font);
 }
 
-#catalogo {
+h2 {
+    font-size: 3.5rem;
+    color: var(--font);
+}
+
+#sobreNos, #catalogo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +96,27 @@ section {
     gap: 2rem;
 }
 
-#catalogo h2 {
-    font-size: 3.5rem;
-    color: var(--font);
+#sobreNos .containerCardSobreNos {
+    display: flex;
 }
+
+#sobreNos .cardSobreNos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sobreNos .cardSobreNos img {
+    width: 12rem;
+}
+
+#sobreNos .cardSobreNos .infoCard {
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
 
 #catalogo .cardsContainer {
     display: flex;
