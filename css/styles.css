@@ -140,6 +140,11 @@ h2 {
     font-size: 2rem;
     font-weight: 600;
 }
+
+#catalogo {
+    margin-bottom: 2rem;
+}
+
 #catalogo .cardsContainer {
     display: flex;
     flex-direction: row;
@@ -200,58 +205,4 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-}
-
-footer {
-    width: 100%;
-    background: var(--black);
-    margin-top: 2rem;
-
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-
-}
-
-footer .navigationContainer {
-    padding: 2rem 4rem;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-}
-
-footer .navigationContainer img {
-    width: 4rem;
-}
-
-footer .navigationContainer nav {
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
-}
-
-footer .navigationContainer nav .containerNav {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-footer .navigationContainer nav span {
-    color: var(--font-hover);
-    font-size: 1.15rem;
-    font-weight: 600;
-}
-
-footer .navigationContainer nav a {
-    text-decoration: none;
-    color: var(--font);
-}
-
-footer .desenvolvidoPor {
-    background: var(--background);
-    padding: 2rem 4rem;
-}
-
-footer .desenvolvidoPor a {
-    color: var(--font2);
 }
