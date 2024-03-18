@@ -227,3 +227,25 @@ h2 {
     height: 9rem;
     width: 85%;
 }
+
+@media (max-width: 480px) {
+    header {
+        display: none;
+    }
+
+    #home img {
+        display: none;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+    }
+
+    #catalogo .consoleCardsContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #catalogo .controlesCardsContainer {
+        flex-direction: column;
+    }
+}
